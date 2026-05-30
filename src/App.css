@@ -1,3 +1,32 @@
+.card {
+  background-color: darkolivegreen;
+  padding: 20px;
+  margin: 200px;
+}
+
+.container {
+  width: 400px;
+  margin: 50px;
+  background: #663333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
