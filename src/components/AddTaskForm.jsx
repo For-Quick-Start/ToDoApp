@@ -18,7 +18,7 @@ export default function AddTaskForm({ onAdd }) {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="what needs to be done?"
+        placeholder="enter a task"
         aria-label="New task"
         maxLength={200}
         autoComplete="off"
