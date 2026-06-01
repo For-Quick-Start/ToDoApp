@@ -4,11 +4,11 @@ export default function AddTaskForm({ onAdd }) {
   const [value, setValue] = useState('');
 
   function handleSubmit(e) {
-    e.preventDefault();            // prevent page reload
+    e.preventDefault();
     const trimmed = value.trim();
-    if (!trimmed) return;          // ignore blank submissions
-    onAdd(trimmed);                // lift the value up to App
-    setValue('');                  // reset local state
+    if (!trimmed) return;
+    onAdd(trimmed);
+    setValue('');
   }
 
   return (

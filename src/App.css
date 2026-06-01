@@ -7,7 +7,6 @@
   gap: 0;
 }
 
-/* ── HEADER ───────────────────────────────────────────── */
 .header {
   display: flex;
   flex-direction: column;
@@ -87,7 +86,6 @@
   color: rgba(245, 240, 232, 0.35);
 }
 
-/* ── DIVIDER ───────────────────────────────────────────── */
 .divider {
   height: 3px;
   background: var(--white);
@@ -106,7 +104,6 @@
   background: var(--yellow);
 }
 
-/* ── ADD TASK FORM ─────────────────────────────────────── */
 .add-task-form {
   display: flex;
   gap: 0;
@@ -176,7 +173,6 @@
   transform: none;
 }
 
-/* ── FILTER BAR ─────────────────────────────────────────── */
 .filter-bar {
   display: flex;
   gap: 0;
@@ -221,7 +217,6 @@
   color: var(--black);
 }
 
-/* ── TASK LIST ──────────────────────────────────────────── */
 .task-list {
   display: flex;
   flex-direction: column;
@@ -229,7 +224,6 @@
   list-style: none;
 }
 
-/* ── TASK ITEM ──────────────────────────────────────────── */
 .task-item {
   display: flex;
   align-items: stretch;
@@ -374,7 +368,6 @@
   color: var(--white);
 }
 
-/* ── EMPTY STATE ────────────────────────────────────────── */
 .empty-state {
   display: flex;
   flex-direction: column;
@@ -412,7 +405,6 @@
   text-transform: uppercase;
 }
 
-/* ── FOOTER BAR ─────────────────────────────────────────── */
 .footer-bar {
   margin-top: 20px;
   display: flex;

@@ -9,7 +9,6 @@ function TaskItem({ task, onToggle, onDelete }) {
       className={`task-item${task.completed ? ' task-item--completed' : ''}`}
       aria-label={`Task: ${task.text}`}
     >
-      {/* Checkbox / toggle area */}
       <button
         className="task-item__check"
         onClick={() => onToggle(task.id)}
@@ -21,13 +20,11 @@ function TaskItem({ task, onToggle, onDelete }) {
         </span>
       </button>
 
-      {/* Task text + metadata */}
       <div className="task-item__content">
         <span className="task-item__text">{task.text}</span>
         <span className="task-item__meta">added {timeAdded}</span>
       </div>
 
-      {/* Delete button */}
       <button
         className="task-item__delete"
         onClick={() => onDelete(task.id)}
